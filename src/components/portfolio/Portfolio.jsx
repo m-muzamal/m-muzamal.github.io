@@ -65,7 +65,7 @@ const Portfolio = () => {
                   className="btn"
                   target="_blank"
                 >
-                  Live Demo
+                  Live
                 </a>
               </div>
             </article>
