@@ -11,37 +11,37 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "This can be changed after",
+    title: "This is 3D box design...",
     demo: "https://www.instagram.com/p/CXLmyUXsTxs/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "This can be changed after",
+    title: "AM 3D design...",
     demo: "https://www.instagram.com/p/CMCMjA3BmZy/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "This can be changed after",
+    title: "Buisness card design...",
     demo: "https://www.instagram.com/p/CNE5HMgHZ9n/",
   },
   {
     id: 4,
     image: IMG4,
-    title: "This can be changed after",
+    title: "Dog world logo design...",
     demo: "https://www.instagram.com/p/CM3jK7An928/",
   },
   {
     id: 5,
     image: IMG5,
-    title: "This can be changed after",
+    title: "Shooting gun lgo design...",
     demo: "https://www.instagram.com/p/CMjBnwZHXPw/",
   },
   {
     id: 6,
     image: IMG6,
-    title: "This can be changed after",
+    title: "TS logo design...",
     demo: "https://www.instagram.com/p/CMeiqdCH0TQ/",
   },
 ];
@@ -64,8 +64,9 @@ const Portfolio = () => {
                   href={demo}
                   className="btn"
                   target="_blank"
+                  rel="noreferrer"
                 >
-                  Live
+                  Live Demo
                 </a>
               </div>
             </article>

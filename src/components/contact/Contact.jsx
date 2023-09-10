@@ -10,7 +10,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_q0yksjs', 'template_9arsbz4', form.current, 'qE64s7b4KhVIb9Rvk')
+    emailjs.sendForm('service_q0yksjs', 'template_82b0tmd"', form.current, 'qE64s7b4KhVIb9Rvk')
     e.target.reset()
       .then((result) => {
           console.log(result.text);
@@ -28,22 +28,22 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>mzml0306@gmail</h5>
-            <a href="mailto:mzml0306@gmail.com" target='_blank'>Send a message</a>
+            <h5>muzamal503@gmail.com</h5>
+            <a href="mailto:muzamal503@gmail.com" target='_blank' rel="noreferrer">Send a message</a>
           </article>
           
           <article className="contact__option">
             <AiOutlineInstagram className="contact__option-icon" />
             <h4>Instagram</h4>
-            <h5>@mzml_art</h5>
-            <a href="https://instagram.com/mzml_art?igshid=YmMyMTA2M2Y=" target='_blank'>Send a message</a>
+            <h5>@mzml_0</h5>
+            <a href="https://www.instagram.com/mzml_0/" target='_blank' rel="noreferrer">Send a message</a>
           </article>
 
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Whatsapp</h4>
-            <h5>+123456789</h5>
-            <a href="https://api.whatsapp.com/send?phone=923154237255" target='_blank'>Send a message</a>
+            <h5>+92 3154237255</h5>
+            <a href="https://api.whatsapp.com/send?phone=923154237255" target='_blank' rel="noreferrer">Send a message</a>
           </article>
         </div>
           <form ref={form} onSubmit={sendEmail}>

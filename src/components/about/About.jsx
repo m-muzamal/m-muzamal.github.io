@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="About_Image" />
           </div>
         </div>
 
@@ -29,13 +29,13 @@ const About = () => {
             <div className="about__card">
               <FaUsers className="about__icon" />
               <h5>Clints</h5>
-              <small>300+ Worldwide</small>
+              <small>50+ Worldwide</small>
             </div>
 
             <div className="about__card">
               <MdOutlineRuleFolder className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>5+ Completed</small>
             </div>
           </div>
           <p>I am a student of BS Computer Science at University of agriculture Faisalabad. I always strive to learn new skills and improve where I am lacking. My goal is to work with an organization. I am a graphic designer with the three year of experience and also a web developer. I have completed a many project as a graphic designer.</p>

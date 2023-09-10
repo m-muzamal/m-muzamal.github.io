@@ -14,13 +14,13 @@ function App() {
       <Header />
       <Nav />
       <About />
-      <Experiance />
       <Services />
+      <Experiance />
       <Portfolio />
       <Contact />
       <Footer />
     </>
   );
-} 
+}
 
 export default App;
